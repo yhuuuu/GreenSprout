@@ -45,7 +45,6 @@ a {
     font-family: 'Montserrat', sans-serif;
     color: #919090;
     margin-left: auto;
-    /* Push the divs to the right */
     display: flex;
 }
 
@@ -61,7 +60,7 @@ a {
 }
 
 .intro {
-    padding: 100px 60px 20px 60px;
+    padding: 100px 100px 20px 100px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -154,7 +153,7 @@ a:hover{
 
 .about-content img {
     width: 100px;
-    padding: 0 50px
+    padding: 0 40px
 }
 
 .about-content p {
@@ -189,4 +188,9 @@ a:hover{
 
 .topPlant {
     padding: 50px;
+}
+
+.footer-container{
+    background-color: #fafafa;
+    height: 150px;
 }
